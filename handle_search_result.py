@@ -38,11 +38,13 @@ def extract_website():
     search_results = soup.find_all("div", class_="yuRUbf")
 
     # Extract data from search results
-    results_data = []
+    results_data = [] # [ [title, url, snippet],...]
     for result in search_results[:10]:
         title = result.find("h3").get_text()
         url = result.find("a")["href"]
-        snippet = result.find("span", class_="aCOpRe").get_text()
+        snippet_element = result.find("span", class_="aCOpRe")
+        snippet = snippet_element.get_text() if snippet_element else ""
+        
         results_data.append([title, url, snippet])
         
     #saveTOcsv(data_results)
