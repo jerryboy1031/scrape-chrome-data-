@@ -24,7 +24,7 @@ def extract_website():
     driver_path = "/chromedriver_win32/chromedriver.exe" # Path to your ChromeDriver executable
     service = Service(driver_path)  
     options = Options()
-    #options.headless = True  # Run the browser in headless mode (without GUI)
+    options.headless = True  # Run the browser in headless mode (without GUI)
     driver = webdriver.Chrome(service=service, options=options)
 
     # Define search query
@@ -54,6 +54,7 @@ def extract_website():
 
     #print("Scraping completed and data saved to", csv_file)
     print(results_data)
+
 
 
 if __name__ == '__main__':
