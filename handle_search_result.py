@@ -5,7 +5,7 @@ Created on Mon Jul  3 16:14:22 2023
 @author: User
 """
 from selenium import webdriver
-from selenium.webdriver.common.by import By
+#from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
