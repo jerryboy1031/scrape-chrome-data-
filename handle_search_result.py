@@ -19,7 +19,7 @@ def saveTOcsv(data):
         writer.writerow(["Title", "URL", "Snippet"])  # Header row
         writer.writerows(data)
         
-def extract_website():
+def extract_website(string):
     # Configure Selenium
     driver_path = "/chromedriver_win32/chromedriver.exe" # Path to your ChromeDriver executable
     service = Service(driver_path)  
@@ -28,15 +28,17 @@ def extract_website():
     driver = webdriver.Chrome(service=service, options=options)
 
     # Define search query
-    search_query = "法國自由行景點"  # Enter your desired search query
-
-    # Perform search and extract data
-    driver.get(f"https://www.google.com/search?q={search_query}")
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-
-    # Find search result elements
-    search_results = soup.find_all("div", class_="yuRUbf")
-
+    search_query = string  # Enter your desired search query
+    
+    # extend the pages (or the search results will only the first page)
+    search_results = []
+    for page in range(1, 4):  # Scrape results from the first 3 pages (change as needed)
+        url = f"https://www.google.com/search?q={search_query}&start={page * 10}"
+        driver.get(url)
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        # Find search result elements
+        search_results.extend(soup.find_all("div", class_="yuRUbf"))
+        
     # Extract data from search results
     results_data = [] # [ [title, url, snippet],...]
     for result in search_results[:10]:
@@ -58,4 +60,4 @@ def extract_website():
 
 
 if __name__ == '__main__':
-    extract_website()
+    extract_website("france trip")
