@@ -1,13 +1,13 @@
 # scape-chrome-data-
 ### How to login the website? / How to google a specific word and scape the results automatically? learn to scape online data (search results) from google chrome.
 <p align="center">
-    <img src="/scape.png" width="600">
+    <img src="/scape.png" width="400">
     <br>
     <sup>Game cover designed by 陳佳俊
     </sup>
 </p>
 
-[**scape-chrome-data-**](https://github.com/jerryboy1031/scrape-chrome-data-) is a video game. It features a beautiful game scene,  delicated actions, and two characters: a Ninja and Romans soldier, fighting until one of them is dead. 
+Sometimes, we are tired of searching for a topic or something, and finding the important information from massive results. How about letting the computer search and pick the results for us? [**scape-chrome-data-**](https://github.com/jerryboy1031/scrape-chrome-data-) uses python modules `selenium` and `bs4` to help us scrape the data from web.
 What's more, the tints (i.e. hurt tint) and actions are beyond description.
 
 It is **authored by** [**陳佳俊**](https://github.com/jerryboy1031). It is **maintained by** [**陳佳俊**](https://github.com/jerryboy1031).
