@@ -50,11 +50,16 @@ It is **authored by** [**陳佳俊**](https://github.com/jerryboy1031). It is **
 ## Contributors
 - [**陳佳俊**](https://github.com/jerryboy1031)
 
+## Installation
+required Python modules:
+1. selenium
+2. bs4
 
+install by `pip install ...`
 
 ## Send Us Feedback!
 Our library is open source for research purposes, and we want to improve it! So let us know (create a new GitHub issue or pull request, email us, etc.) if you...
-1. Find/fix any bug (in functionality or speed) or know how to speed up or improve any part of OpenPose.
+1. Find/fix any bug (in functionality or speed) or know how to speed up or improve any part of this project.
 2. Want to add/show some cool functionality/demo/project made on top of it. We can add your project link to our project.
 
 ## License
