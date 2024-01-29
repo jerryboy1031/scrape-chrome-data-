@@ -18,9 +18,10 @@ def saveTOcsv(data):
         writer = csv.writer(file)
         writer.writerow(["Title", "URL", "Snippet"])  # Header row
         writer.writerows(data)
-        
+
 def extract_website(string):
     # Configure Selenium
+    
     driver_path = "/chromedriver_win32/chromedriver.exe" # Path to your ChromeDriver executable
     service = Service(driver_path)  
     options = Options()
