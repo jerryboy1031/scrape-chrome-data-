@@ -1,7 +1,7 @@
 # scape-chrome-data-
 ### How to login the website? / How to google a specific word and scape the results automatically? learn to scape online data (search results) from google chrome.
 <p align="center">
-    <img src=".vs/figs/cover.png" width="600">
+    <img src="/scape.png" width="600">
     <br>
     <sup>Game cover designed by 陳佳俊
     </sup>
