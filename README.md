@@ -26,38 +26,26 @@ It is **authored by** [**陳佳俊**](https://github.com/jerryboy1031). It is **
 ### Gameplay
 <p align="center">
     <img src=".vs/figs/gameplay1.png" width="300">
-    <img src=".vs/figs/gameplay2.png" width="300">
-    <img src=".vs/figs/gameplay3.png" width="300">
-    <br>
-    <sup>Start fighting scene(Left), Attack action(Center), hurting tints(Right) 
 </p>
 
 
 ## Features
-- **extract_website(string)**:
-    -  start
-    -  exit
-    -  icon
 
-<p align="center">
-    <img src="image/move1.png" width="100">
-    <img src="image/move21.png" width="100">
-    <br>
-</p>
+- **handle_search_result.py**
+    - **extract_website(string)**:
+        -  start
+        - open a google chrome website
+        - search a specific title (i.e. 法國自由行)
+        - extract data(titles, urls) from the result
 
-- handle_search_result.py
-  - open a google chrome website
-  - search a specific title (i.e. 法國自由行)
-  - extract data(titles, urls) from the result
+    - **saveTOcsv(data)**
+        - open a csv file "google_search_results.csv" with writting mode, and encoded with utf-8
+        - save the data to a csv file, and add a header row
 
-- **saveTOcsv(data)**
-   - open a csv file "google_search_results.csv" with writting mode, and encoded with utf-8
-   - save the data to a csv file, and add a header row
 
-     1. login_fb.py file
-   ### use senlenium to automate the web browser
-- open a google chrome website
-- to login a website (i.e. FB) with email and password (without verification code)
+- **login_fb.py file**
+    - use senlenium to automate the web browser- open a google chrome website
+    - to login a website (i.e. FB) with email and password (without verification code)
 
 ## Contributors
 - [**陳佳俊**](https://github.com/jerryboy1031)
