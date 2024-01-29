@@ -31,7 +31,7 @@ It is **authored by** [**陳佳俊**](https://github.com/jerryboy1031). It is **
 
 ## Features
 
-- **handle_search_result.py**
+- **[handle_search_result.py](https://github.com/jerryboy1031/scrape-chrome-data-/blob/main/handle_search_result.py)** 
     - **extract_website(string)**:
         -  start
         - open a google chrome website
@@ -43,7 +43,7 @@ It is **authored by** [**陳佳俊**](https://github.com/jerryboy1031). It is **
         - save the data to a csv file, and add a header row
 
 
-- **login_fb.py file**
+- **[login_fb.py file](https://github.com/jerryboy1031/scrape-chrome-data-/blob/main/login_fb.py)**
     - use senlenium to automate the web browser- open a google chrome website
     - to login a website (i.e. FB) with email and password (without verification code)
 
