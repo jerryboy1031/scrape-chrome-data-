@@ -13,21 +13,12 @@ It is **authored by** [**陳佳俊**](https://github.com/jerryboy1031). It is **
 
 
 ## Contents
-1. [Results](#results)
-2. [Features](#features)
-3. [Contributors](#contributors)
-4. [Installation](#installation)
-5. [Send Us Feedback!](#send-us-feedback)
-6. [License](#license)
 
-
-
-## Results
-### Gameplay
-<p align="center">
-    <img src=".vs/figs/gameplay1.png" width="300">
-</p>
-
+1. [Features](#features)
+2. [Contributors](#contributors)
+3. [Installation](#installation)
+4. [Send Us Feedback!](#send-us-feedback)
+5. [License](#license)
 
 ## Features
 
@@ -54,6 +45,7 @@ It is **authored by** [**陳佳俊**](https://github.com/jerryboy1031). It is **
 required Python modules:
 1. selenium
 2. bs4
+3. urllib.request
 
 install by `pip install ...`
 
