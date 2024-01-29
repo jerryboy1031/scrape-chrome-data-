@@ -17,8 +17,8 @@ def login_fb():
     password = chrome.find_element("id", "pass")
 
     time.sleep(1)
-    email.send_keys('jerryboy1031@yahoo.com.tw')
-    password.send_keys('zxcvbnm1031')
+    email.send_keys('email account')
+    password.send_keys('password')
     time.sleep(3)
     password.submit()
     time.sleep(5)
