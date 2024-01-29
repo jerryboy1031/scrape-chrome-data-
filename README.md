@@ -7,8 +7,7 @@
     </sup>
 </p>
 
-Sometimes, we are tired of searching for a topic or something, and finding the important information from massive results. How about letting the computer search and pick the results for us? [**scape-chrome-data-**](https://github.com/jerryboy1031/scrape-chrome-data-) uses python modules `selenium` and `bs4` to help us scrape the data from web.
-What's more, the tints (i.e. hurt tint) and actions are beyond description.
+Sometimes, we are tired of searching for a topic or something, and finding the important information from massive results. How about letting the computer search and pick the results for us? [**scape-chrome-data-**](https://github.com/jerryboy1031/scrape-chrome-data-) uses python modules `selenium` and `bs4` to help us scrape the data from web. Then, it writes the results it pick on a csv file. The only thing we do is to open the csv and take a look.
 
 It is **authored by** [**陳佳俊**](https://github.com/jerryboy1031). It is **maintained by** [**陳佳俊**](https://github.com/jerryboy1031).
 
